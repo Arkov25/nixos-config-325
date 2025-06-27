@@ -13,7 +13,7 @@
     ../../home/programs/shell
     ../../home/programs/fetch
     ../../home/programs/git
-    ../../home/programs/git/signing.nix
+    #../../home/programs/git/signing.nix
     ../../home/programs/spicetify
     ../../home/programs/nextcloud
     ../../home/programs/thunar
