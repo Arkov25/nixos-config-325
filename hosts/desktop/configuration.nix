@@ -13,6 +13,7 @@
     ../../nixos/utils.nix
     ../../nixos/tailscale.nix
     ../../nixos/hyprland.nix
+    ../../nixos/tuigreet.nix
 
     #../../nixos/omen.nix # For my laptop only
 
