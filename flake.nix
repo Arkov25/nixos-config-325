@@ -39,7 +39,7 @@
 
   outputs = inputs @ {nixpkgs, ...}: {
     nixosConfigurations = {
-      nixy =
+      desktop =
         # CHANGEME: This should match the 'hostname' in your variables.nix file
         nixpkgs.lib.nixosSystem {
           modules = [
@@ -54,7 +54,7 @@
           ];
         };
       # Jack is my server
-      jack = nixpkgs.lib.nixosSystem {
+      server = nixpkgs.lib.nixosSystem {
         modules = [
           {_module.args = {inherit inputs;};}
           inputs.home-manager.nixosModules.home-manager
