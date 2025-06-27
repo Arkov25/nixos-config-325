@@ -6,4 +6,8 @@
     enable = true;
     config = { frameless = true; };
   };
+
+    programs.vesktop = {
+    enable = true;
+  };
 }

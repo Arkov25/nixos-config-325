@@ -1,8 +1,8 @@
 # Git configuration
 { config, ... }:
 let
-  username = config.var.git.username;
-  email = config.var.git.email;
+  username = "Arkov25";
+  email = "Marko.Veljkovic25@gmail.com";
 in {
   programs.git = {
     enable = true;
